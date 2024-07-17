@@ -1,0 +1,26 @@
+.container{
+    position: relative;
+    height: 100vh;
+   
+}
+.main{
+    min-width: 400px;
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    margin: 6px;
+    border: none;
+    border-radius: 5px;
+}
