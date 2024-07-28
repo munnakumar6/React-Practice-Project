@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:rgb(20, 174, 240);
+}
+
+.main-container {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 9px;
+  padding: 10px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-color: white; /* Fallback color */
+}
+
+.searchbox {
+  margin-top: 20px;
+}
+
+.searchbox input {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: skyblue;
+}
+p img{
+  height: 100px;
+}
+
+.searchbox button {
+  font-size: 20px;
+  padding: 9px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: white;
+  color: rgb(63, 180, 231);
+  margin: 5px;
+}
+
+.responseResult {
+  margin-top: 50px;
+  font-size: 30px;
+  color:rgb(20, 174, 240);
+  line-height: 45px;
+}
+
+/* Add more classes for other weather conditions as needed */
